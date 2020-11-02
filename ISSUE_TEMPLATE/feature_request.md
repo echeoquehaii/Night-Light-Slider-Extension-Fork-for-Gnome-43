@@ -1,10 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea or an improvement
-title: 'request(): make slider have cool sound effect'
-labels: feature request
-assignees: ''
-
+name: "Feature request"
+about: "Suggest an idea or an improvement"
+title: "A descriptive title"
+labels:
+  - "feature request"
 ---
 
 **Checklist:**
@@ -14,4 +13,4 @@ assignees: ''
 
 **Feature Description:**
 
-Let me know if this feature request is related to an issue you may be facing.
+<!-- Let me know if this feature request is related to an issue you may be facing -->

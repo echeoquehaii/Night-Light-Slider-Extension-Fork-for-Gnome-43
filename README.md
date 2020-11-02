@@ -28,5 +28,5 @@ Available from GNOME extensions website [here](https://extensions.gnome.org/exte
 
 ## contributors
 
-- [@protopopov1122](https://github.com/protopopov1122) [#46](https://github.com/kiyui/gnome-shell-night-light-slider-extension/pull/46) [#49](https://github.com/kiyui/gnome-shell-night-light-slider-extension/pull/49)
-- [@themightydeity](https://github.com/themightydeity) [#58](https://github.com/kiyui/gnome-shell-night-light-slider-extension/pull/58)
+- [@protopopov1122](https://github.com/protopopov1122) [#46](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/46) [#49](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/49)
+- [@themightydeity](https://github.com/themightydeity) [#58](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/58)

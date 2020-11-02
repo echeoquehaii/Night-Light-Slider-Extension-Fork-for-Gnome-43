@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiyui/gnome-shell-night-light-slider-extension.git"
+    "url": "git+https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension.git"
   },
   "keywords": [
     "gnome",
@@ -22,9 +22,9 @@
   "author": "Dafne Kiyui",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/kiyui/gnome-shell-night-light-slider-extension/issues"
+    "url": "https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/issues"
   },
-  "homepage": "https://github.com/kiyui/gnome-shell-night-light-slider-extension#readme",
+  "homepage": "https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension#readme",
   "devDependencies": {
     "eslint": "^7.8.1",
     "husky": ">=4",

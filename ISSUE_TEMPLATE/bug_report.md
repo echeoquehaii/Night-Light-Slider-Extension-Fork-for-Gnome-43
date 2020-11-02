@@ -1,10 +1,9 @@
 ---
-name: Bug report
-about: Report an issue you're facing
-title: 'bug(extension): something about cats'
-labels: bug
-assignees: ''
-
+name: "Bug report"
+about: "Report an issue you're facing"
+title: "A descriptive title"
+labels:
+  - "bug"
 ---
 
 **Describe the bug**
