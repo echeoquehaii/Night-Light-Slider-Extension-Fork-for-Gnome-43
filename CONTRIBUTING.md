@@ -9,14 +9,14 @@
 
 ## Code
 
-- Run `yarn install` to set up the Git hooks to perform automated linting
-- Otherwise, lint your code manually with [eslint](https://eslint.org/)
+- Lint your code with [eslint](https://eslint.org/)
 - You agree that your code will be distributed under the [GPL-2.0-or-later](LICENSE)
 
 ## Building
 
-- If you do not already have the extension installed locally, you can symlink it with `yarn build:link`
-- Run `yarn build:resources` to compile the resources
-- Run `yarn build:schema` to compile the resources
-- Run `yarn build` to produce a distribution archive
-- View the script in `package.json` for building without `yarn`
+The extension uses the [meson](https://mesonbuild.com/) build system.
+
+- You can set up a development environment by running `meson setup --prefix=$HOME/.local builddir`
+- You can compile and install a build by running `meson install -C builddir`
+- Changes to the `meson.build` will require reconfiguring it with `meson --reconfigure builddir`
+- You can create a packed extension by running `meson compile extension.zip -C builddir`

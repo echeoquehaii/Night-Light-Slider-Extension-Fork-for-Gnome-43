@@ -1,4 +1,1 @@
-node_modules/
-night-light-slider.timur@linux.com.zip
-*.compiled
-*.gresource
+builddir/
