@@ -21,7 +21,7 @@ custom_target('extension.zip',
   command: [
     'gnome-extensions', 'pack', prefixdir/extensiondir,
     '--extra-source', 'convenience.js',
-    '--extra-source', gse_prefix + 'data.gresource',
+    '--extra-source', gse_prefix + '.data.gresource',
     '--schema', prefixdir/schemadir/gse_prefix + '.gschema.xml',
   ],
   output:  gse_uuid + '.shell-extension.zip')
