@@ -25,6 +25,10 @@ const {GObject, Gio, Gtk, Handy} = imports.gi;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
+// i18n
+const Gettext = imports.gettext;
+const _ = Gettext.gettext;
+
 // Register resources
 const resource = Me.metadata['gresource-data'];
 const resourceFile = Me.dir.get_child(resource);
@@ -122,6 +126,8 @@ function buildPrefsWidget() {
 }
 
 function init() {
+    Gettext.textdomain(Me.metadata['gettext-domain']);
+    ExtensionUtils.initTranslations();
     Gtk.init(null);
     Handy.init(null);
 }

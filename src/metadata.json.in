@@ -2,6 +2,7 @@
   "uuid": "@uuid@",
   "version": @version@,
   "settings-schema": "@settings_schema@",
+  "gettext-domain": "@gettext_domain@",
   "gresource-data": "@gresource_data@",
   "name": "Night Light Slider",
   "description": "A GNOME extension to manage the built-in night light temperature",

@@ -3,9 +3,13 @@ project('night-light-slider.timur@linux.com',
   license: 'GPL2+',
   meson_version: '>= 0.50.0')
 
+gnome = import('gnome')
+i18n = import('i18n')
+
 # Extension information
 gse_uuid = meson.project_name()
 gse_prefix = 'org.gnome.shell.extensions.nightlightslider'
+gettext_domain = gse_uuid
 
 # Installation directories
 prefixdir = get_option('prefix')
@@ -15,6 +19,7 @@ extensiondir = datadir/'gnome-shell'/'extensions'/gse_uuid
 
 subdir('src')
 subdir('data')
+subdir('po')
 
 # Create release zip for distribution
 custom_target('extension.zip',
@@ -23,6 +28,8 @@ custom_target('extension.zip',
     '--extra-source', 'convenience.js',
     '--extra-source', gse_prefix + '.data.gresource',
     '--schema', prefixdir/schemadir/gse_prefix + '.gschema.xml',
+    '--podir', meson.current_source_dir()/'po',
+    '--gettext-domain', gettext_domain,
   ],
   output:  gse_uuid + '.shell-extension.zip')
 

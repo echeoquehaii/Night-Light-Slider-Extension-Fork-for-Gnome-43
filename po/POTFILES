@@ -1,0 +1,5 @@
+src/convenience.js
+src/extension.js
+src/prefs.js
+data/org.gnome.shell.extensions.nightlightslider.gschema.xml
+src/prefs.ui
