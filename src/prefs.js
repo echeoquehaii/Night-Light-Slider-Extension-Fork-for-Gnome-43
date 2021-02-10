@@ -26,7 +26,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 // i18n
-const Gettext = imports.gettext;
+const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const _ = Gettext.gettext;
 
 // Register resources
@@ -126,7 +126,6 @@ function buildPrefsWidget() {
 }
 
 function init() {
-    Gettext.textdomain(Me.metadata['gettext-domain']);
     ExtensionUtils.initTranslations();
     Gtk.init(null);
     Handy.init(null);
