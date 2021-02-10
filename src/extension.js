@@ -33,7 +33,7 @@ const Me = ExtensionUtils.getCurrentExtension();
 const {debounce, setInterval} = Me.imports.convenience;
 
 // i18n
-const Gettext = imports.gettext;
+const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const _ = Gettext.gettext;
 
 // GSettings schema
@@ -327,7 +327,6 @@ class Extension {
 }
 
 function init() {
-    Gettext.textdomain(Me.metadata['gettext-domain']);
     ExtensionUtils.initTranslations();
     return new Extension();
 }
