@@ -1,5 +1,5 @@
 project('night-light-slider.timur@linux.com',
-  version: '19',
+  version: '20',
   license: 'GPL2+',
   meson_version: '>= 0.50.0')
 
