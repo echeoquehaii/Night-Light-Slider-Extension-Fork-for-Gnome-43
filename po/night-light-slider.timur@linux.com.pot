@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: night-light-slider.timur@linux.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-20 20:48+0800\n"
+"POT-Creation-Date: 2021-03-27 15:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,65 +22,65 @@ msgid "Night Light Temperature"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:6
-#: src/prefs.ui:100
+#: src/prefs.ui:102
 msgid "Always show slider"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:7
-#: src/prefs.ui:99
+#: src/prefs.ui:113
 msgid "Show the slider even when night light is disabled or off"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:11
-#: src/prefs.ui:115
+#: src/prefs.ui:145
 msgid "Show indicator"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:12
-#: src/prefs.ui:114
+#: src/prefs.ui:156
 msgid ""
 "Show the night light indicator in the status area when night light is enabled"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:16
-#: src/prefs.ui:160
+#: src/prefs.ui:274
 msgid "Enable permanent night light"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:17
-#: src/prefs.ui:159
+#: src/prefs.ui:285
 msgid ""
 "Constantly update the night light schedule such that it is enabled "
 "throughout the day"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:21
-#: src/prefs.ui:193
+#: src/prefs.ui:360
 msgid "Lowest temperature"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:22
-#: src/prefs.ui:192
+#: src/prefs.ui:371
 msgid "Minimum slider value, lower is warmer"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:26
-#: src/prefs.ui:175
+#: src/prefs.ui:317
 msgid "Highest temperature"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:27
-#: src/prefs.ui:174
+#: src/prefs.ui:328
 msgid "Maximum slider value, higher is cooler"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:31
-#: src/prefs.ui:145
+#: src/prefs.ui:231
 msgid "Sync brightness percentage"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:32
-#: src/prefs.ui:144
+#: src/prefs.ui:242
 msgid "Adjust both brightness and night light warmth"
 msgstr ""
 
@@ -94,35 +94,35 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:41
-#: src/prefs.ui:130
+#: src/prefs.ui:188
 msgid "Swap slider axis"
 msgstr ""
 
 #: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:42
-#: src/prefs.ui:129
+#: src/prefs.ui:199
 msgid "Invert the slider axis such that lower is cooler and higher is warmer"
 msgstr ""
 
-#: src/prefs.ui:23
-msgid "Enable"
-msgstr ""
-
-#: src/prefs.ui:49
+#: src/prefs.ui:10
 msgid "Night Light is disabled in system preferences"
 msgstr ""
 
-#: src/prefs.ui:81
-msgid "Manage where in the aggregate menu the slider should show"
+#: src/prefs.ui:18
+msgid "Enable"
 msgstr ""
 
-#: src/prefs.ui:82
+#: src/prefs.ui:56
 msgid "Slider position"
 msgstr ""
 
-#: src/prefs.ui:88
+#: src/prefs.ui:67
+msgid "Manage where in the aggregate menu the slider should show"
+msgstr ""
+
+#: src/prefs.ui:83
 msgid "Top-level menu"
 msgstr ""
 
-#: src/prefs.ui:89
+#: src/prefs.ui:84
 msgid "Night Light submenu"
 msgstr ""
