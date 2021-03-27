@@ -18,16 +18,10 @@
 
 /* exported buildPrefsWidget init */
 
-imports.gi.versions.Gtk = '3.0';
-imports.gi.versions.Handy = '0.0';
-const {GObject, Gio, Gtk, Handy} = imports.gi;
+const {GObject, Gio, Gtk} = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
-
-// i18n
-const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
-const _ = Gettext.gettext;
 
 // Register resources
 const resource = Me.metadata['gresource-data'];
@@ -127,6 +121,4 @@ function buildPrefsWidget() {
 
 function init() {
     ExtensionUtils.initTranslations();
-    Gtk.init(null);
-    Handy.init(null);
 }
