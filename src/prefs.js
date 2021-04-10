@@ -23,17 +23,12 @@ const {GObject, Gio, Gtk} = imports.gi;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-// Register resources
-const resource = Me.metadata['gresource-data'];
-const resourceFile = Me.dir.get_child(resource);
-Gio.resources_register(Gio.Resource.load(resourceFile.get_path()));
-
 // GSettings schema
 const COLOR_SCHEMA = 'org.gnome.settings-daemon.plugins.color';
 
 var NightLightExtensionPrefs = GObject.registerClass({
     GTypeName: 'NightLightExtensionPrefs',
-    Template: 'resource:///org/gnome/shell/extensions/nightlightslider/prefs.ui',
+    Template: Me.dir.get_child('prefs.ui').get_uri(),
     InternalChildren: [
         /* Night Light status infobar */
         'infobar_status', 'btn_enable_night_light',
