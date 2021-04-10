@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<interface>
+<interface domain="night-light-slider.timur@linux.com">
   <template class="NightLightExtensionPrefs" parent="GtkBox">
     <property name="orientation">vertical</property>
     <child>
