@@ -26,6 +26,12 @@ The extension can be customized with the following preferences:
 
 Available from GNOME extensions website [here](https://extensions.gnome.org/extension/1276/night-light-slider/), make sure to enable Night Light under Settings/Display
 
+## tips
+
+If you enjoy this extension, consider buying me a coffee 😄
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D34NIY5)
+
 ## contributors
 
 - [@protopopov1122](https://github.com/protopopov1122) [#46](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/46) [#49](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/49)
