@@ -1,0 +1,10 @@
+{
+  "uuid": "@uuid@",
+  "version": @version@,
+  "settings-schema": "@settings_schema@",
+  "gettext-domain": "@gettext_domain@",
+  "name": "Night Light Slider",
+  "description": "A GNOME extension to manage the built-in night light temperature",
+  "shell-version": ["40.0"],
+  "url": "https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension"
+}

@@ -1,0 +1,129 @@
+# Russian translations for night-light-slider.timur@linux.com package.
+# Copyright (C) 2021 THE night-light-slider.timur@linux.com'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the night-light-slider.timur@linux.com package.
+# Automatically generated, 2021.
+# SlyDeath <slyrs@yandex.ru>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: night-light-slider.timur@linux.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-18 11:30+0300\n"
+"PO-Revision-Date: 2021-07-18 11:51+0300\n"
+"Last-Translator: SlyDeath <slyrs@yandex.ru>\n"
+"Language-Team: Russian <slyrs@yandex.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: src/extension.js:108
+msgid "Night Light Temperature"
+msgstr "Температура Ночной Подсветки"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:6
+#: src/prefs.ui:102
+msgid "Always show slider"
+msgstr "Всегда показывать слайдер"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:7
+#: src/prefs.ui:113
+msgid "Show the slider even when night light is disabled or off"
+msgstr "Показывать слайдер, даже если ночная подсветка отключена"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:11
+#: src/prefs.ui:145
+msgid "Show indicator"
+msgstr "Показать индикатор"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:12
+#: src/prefs.ui:156
+msgid "Show the night light indicator in the status area when night light is enabled"
+msgstr "Показывать индикатор ночной подсветки в системном трее, если она включена"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:16
+#: src/prefs.ui:274
+msgid "Enable permanent night light"
+msgstr "Принудительно включить ночную подсветку"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:17
+#: src/prefs.ui:285
+msgid "Constantly update the night light schedule such that it is enabled throughout the day"
+msgstr "Постоянно обновляет расписание ночной подсветки, чтобы она была включена всегда"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:21
+#: src/prefs.ui:360
+msgid "Lowest temperature"
+msgstr "Самая низкая температура"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:22
+#: src/prefs.ui:371
+msgid "Minimum slider value, lower is warmer"
+msgstr "Минимальное значение ползунка, чем ниже, тем теплее"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:26
+#: src/prefs.ui:317
+msgid "Highest temperature"
+msgstr "Самая высокая температура"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:27
+#: src/prefs.ui:328
+msgid "Maximum slider value, higher is cooler"
+msgstr "Максимальное значение ползунка, чем выше, тем холоднее"
+
+# I'm not sure if I understood correctly the principle of work, and, accordingly, the translation
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:31
+#: src/prefs.ui:231
+msgid "Sync brightness percentage"
+msgstr "Синхронизация яркости в процентах"
+
+# I'm not sure if I understood correctly the principle of work, and, accordingly, the translation
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:32
+#: src/prefs.ui:242
+msgid "Adjust both brightness and night light warmth"
+msgstr "Регулируйте яркость и теплоту ночной подсветки"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:36
+msgid "Show in submenu"
+msgstr "Показать в подменю"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:37
+msgid "Display the slider in the night light submenu instead of at the panel menu"
+msgstr "Отображать слайдер в подменю ночной подсветки, а не в меню панели"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:41
+#: src/prefs.ui:188
+msgid "Swap slider axis"
+msgstr "Инвертировать ось слайдера"
+
+#: data/org.gnome.shell.extensions.nightlightslider.gschema.xml:42
+#: src/prefs.ui:199
+msgid "Invert the slider axis such that lower is cooler and higher is warmer"
+msgstr "Инвертировать ось слайдера, чтобы меньше было холоднее, а больше — теплее."
+
+#: src/prefs.ui:10
+msgid "Night Light is disabled in system preferences"
+msgstr "«Ночная Подсветка» отключена в системных настройках"
+
+#: src/prefs.ui:18
+msgid "Enable"
+msgstr "Включить"
+
+#: src/prefs.ui:56
+msgid "Slider position"
+msgstr "Положение слайдера"
+
+#: src/prefs.ui:67
+msgid "Manage where in the aggregate menu the slider should show"
+msgstr "Управляйте тем, где в меню должен отображаться слайдер"
+
+#: src/prefs.ui:83
+msgid "Top-level menu"
+msgstr "Верхний уровень меню"
+
+#: src/prefs.ui:84
+msgid "Night Light submenu"
+msgstr "Подменю Ночной Подсветки"

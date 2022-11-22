@@ -32,6 +32,10 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 const {debounce, setInterval} = Me.imports.convenience;
 
+// i18n
+const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
+const _ = Gettext.gettext;
+
 // GSettings schema
 const COLOR_SCHEMA = 'org.gnome.settings-daemon.plugins.color';
 
@@ -323,5 +327,6 @@ class Extension {
 }
 
 function init() {
+    ExtensionUtils.initTranslations();
     return new Extension();
 }

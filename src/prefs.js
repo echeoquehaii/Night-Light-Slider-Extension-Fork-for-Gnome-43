@@ -18,24 +18,17 @@
 
 /* exported buildPrefsWidget init */
 
-imports.gi.versions.Gtk = '3.0';
-imports.gi.versions.Handy = '0.0';
-const {GObject, Gio, Gtk, Handy} = imports.gi;
+const {GObject, Gio, Gtk} = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
-
-// Register resources
-const resource = Me.metadata['data-gresource'];
-const resourceFile = Me.dir.get_child(resource);
-Gio.resources_register(Gio.Resource.load(resourceFile.get_path()));
 
 // GSettings schema
 const COLOR_SCHEMA = 'org.gnome.settings-daemon.plugins.color';
 
 var NightLightExtensionPrefs = GObject.registerClass({
     GTypeName: 'NightLightExtensionPrefs',
-    Template: 'resource:///org/gnome/shell/extensions/nightlightslider/ui/prefs.ui',
+    Template: Me.dir.get_child('prefs.ui').get_uri(),
     InternalChildren: [
         /* Night Light status infobar */
         'infobar_status', 'btn_enable_night_light',
@@ -122,6 +115,5 @@ function buildPrefsWidget() {
 }
 
 function init() {
-    Gtk.init(null);
-    Handy.init(null);
+    ExtensionUtils.initTranslations();
 }
