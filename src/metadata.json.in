@@ -3,8 +3,8 @@
   "version": @version@,
   "settings-schema": "@settings_schema@",
   "gettext-domain": "@gettext_domain@",
-  "name": "Night Light Slider",
+  "name": "Night Light Slider Gnome 43 Fork",
   "description": "A GNOME extension to manage the built-in night light temperature",
-  "shell-version": ["40.0"],
-  "url": "https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension"
+  "shell-version": ["43.0"],
+  "url": "https://github.com/carallo/Night-Light-Slider-Extension-Fork-for-Gnome-43/"
 }

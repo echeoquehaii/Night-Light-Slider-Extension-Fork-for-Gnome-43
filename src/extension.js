@@ -287,7 +287,7 @@ class Extension {
     }
 
     _create() {
-        const indicator = panel.statusArea.aggregateMenu._nightLight;
+        const indicator = panel.statusArea.quickSettings._nightLight;
         this._nightLight = new Indicator(indicator, {
             minimum: this._preferences.get_int('minimum'),
             maximum: this._preferences.get_int('maximum'),
@@ -299,12 +299,12 @@ class Extension {
 
         // Assign slider to AggregateMenu, just like other indicators
         // This also makes it easier to debug the extension
-        panel.statusArea.aggregateMenu._nightLightSlider = this._nightLight;
+        panel.statusArea.quickSettings._nightLightSlider = this._nightLight;
 
         if (this._preferences.get_boolean('show-in-submenu'))
-            panel.statusArea.aggregateMenu._nightLight._item.menu.addMenuItem(this._nightLight.menu);
+            panel.statusArea.quickSettings._nightLight._item.menu.addMenuItem(this._nightLight.menu);
         else
-            panel.statusArea.aggregateMenu.menu.addMenuItem(this._nightLight.menu, 2);
+            panel.statusArea.quickSettings.menu.addMenuItem(this._nightLight.menu, 2);
     }
 
     _updateOption(key, value) {
@@ -321,7 +321,7 @@ class Extension {
     disable() {
         this._nightLight.destroy();
         this._nightLight = null;
-        panel.statusArea.aggregateMenu._nightLightSlider = null;
+        panel.statusArea.quickSettings._nightLightSlider = null;
         this._scheduler.disableTimer();
     }
 }

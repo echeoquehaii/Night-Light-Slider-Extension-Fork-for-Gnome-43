@@ -1,5 +1,5 @@
-project('night-light-slider.timur@linux.com',
-  version: '23',
+project('night-light-slider-gnome43-fork.carallo',
+  version: '0.1',
   license: 'GPL2+',
   meson_version: '>= 0.50.0')
 
