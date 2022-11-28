@@ -43,5 +43,5 @@ If you enjoy this extension, consider buying Kiyui a coffee 😄
 - [@SlyDeath](https://codeberg.org/SlyDeath) [#90](https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/pulls/90)
 
 Myself:
-- [@carallo](https://github.com/carallo): [this fork](https://github.com/carallo/Night-Light-Slider-Extension-Fork-for-Gnome-43/)
+- [@echeoquehaii](https://github.com/echeoquehaii): [this fork](https://github.com/carallo/Night-Light-Slider-Extension-Fork-for-Gnome-43/)
 
